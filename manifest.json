@@ -3,6 +3,9 @@
   "name": "Cozy Animal Breaks",
   "version": "1.0",
   "description": "A gentle reminder extension.",
+  "permissions": [
+    "alarms"
+  ],
   "background": {
     "service_worker": "background.js"
   }
